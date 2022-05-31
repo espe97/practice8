@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "practice8"
+include ':app'
+include ':fregmentviewmodel'
+include ':lifecycle'
+include ':livedata'
+include ':livedatastring'
+include ':networkstate'
+include ':viewmodel'
